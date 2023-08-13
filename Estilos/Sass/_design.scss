@@ -1,0 +1,101 @@
+* {
+  font-family: Verdana, "Geneva", Tahoma, sans-serif;
+  font-size: 18px;
+}
+
+html {
+  background-image: url(/Images/Fondo.jpg);
+}
+
+h1 {
+  color: whitesmoke;
+  font-size: 40px;
+  text-align: left;
+  margin-top: 180px;
+  margin-left: 120px;
+  margin-bottom: 80px;
+}
+.form {
+  background-color: rgb(164, 232, 255);
+}
+.section {
+  background-color: rgb(164, 232, 255);
+  box-shadow: inset 1px 1px 8px rgb(44, 15, 100);
+  margin: 25px 120px 0 120px;
+  border-radius: 10px;
+  padding: 25px 30px 95px 32px;
+}
+
+.div {
+  margin: 310px 150px;
+}
+
+.Document_type {
+  margin-right: 390px;
+}
+
+@media screen and (min-width: 425px) and (max-width: 767px) {
+  * {
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  h1 {
+    color: whitesmoke;
+    font-size: 40px;
+    text-align: left;
+    margin-top: 180px;
+    margin-left: 120px;
+    margin-bottom: 80px;
+  }
+  .form {
+    background-color: rgb(164, 232, 255);
+  }
+  .section {
+    background-color: rgb(164, 232, 255);
+    box-shadow: inset 1px 1px 8px rgb(44, 15, 100);
+    margin: 25px 120px 0 120px;
+    border-radius: 10px;
+    padding: 25px 30px 95px 32px;
+  }
+
+  .div {
+    margin: 310px 80px;
+  }
+
+  .Document_type {
+    margin-right: 150px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  * {
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  h1 {
+    color: whitesmoke;
+    font-size: 40px;
+    text-align: left;
+    margin-top: 180px;
+    margin-left: 160px;
+    margin-bottom: 80px;
+  }
+  .form {
+    background-color: rgb(164, 232, 255);
+  }
+  .section {
+    background-color: rgb(164, 232, 255);
+    box-shadow: inset 1px 1px 8px rgb(44, 15, 100);
+    margin: 25px 120px 0 120px;
+    border-radius: 10px;
+    padding: 25px 30px 95px 32px;
+  }
+
+  .div {
+    margin: 310px 150px;
+  }
+
+  .Document_type {
+    margin-right: 400px;
+  }
+}

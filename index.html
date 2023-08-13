@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Angel Lopez" />
+    <meta name="description" content="Desafio formulario BT" />
+    <meta name="keywords" content="Html, CSS, JS, Formulario" />
+    <meta name="copyright" content="Todos los derechos reservados" />
+    <link rel="stylesheet" href="./Estilos/Sass/main.css" />
+    <title>Desafio 10</title>
+  </head>
+  <body>
+    <h1 class="h1">Formulario de Datos</h1>
+    <main class="main">
+      <section class="section">
+        
+      <form class="form">
+        <label class="label" for="nombre"
+          >Primer nombre:<input name="nombre" type="text" id="nombre"
+        /></label>
+
+        <label class="label" for="apellido"
+          >Primer apellido:<input name="apellido" id="apellido" type="text"
+        /></label>
+
+        <label class="Document_type" for="tipo de documento">Tipo de documento:</label>
+        <div class="div">
+          <label for="dni"
+            ><input
+              name="tipoDoc"
+              type="radio"
+              id="dni"
+              value="DNI"
+            />DNI</label
+          >
+          <label for="cuil"
+            ><input
+              name="tipoDoc"
+              type="radio"
+              id="cuil"
+              value="CUIL"
+            />CUIL</label
+          >
+        </div>
+        <label class="label" for="numeroDoc"
+          >Número de documento:<input
+            name="numeroDoc"
+            id="numeroDoc"
+            type="text"
+        /></label>
+        <label class="label" for="direccion"
+          >Dirección:<input name="direccion" id="direccion" type="text"
+        /></label>
+      </form>
+      <div id="errors" class="error-message"></div>
+      <span id="success" class="success-message"></span>
+      <section id="bonus"></section>
+      <span id="bonusSuccess" class="success-message"></span>
+      <script src="./JS/JavaScrip.js"></script>
+    </main>
+  </section>
+  </body>
+</html>
